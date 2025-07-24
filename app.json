@@ -1,0 +1,23 @@
+{
+  "name": "SHANUWA-MD",
+  "description": "SHANUWA-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://i.ibb.co/FbG8tM5t/9-FLp8dz-Kr-R.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "eshu-md"],
+  "success_url": "/",
+
+  "env": {
+    "FILENAME": {
+      "description": "Put your filename here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
